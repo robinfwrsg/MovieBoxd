@@ -32,7 +32,7 @@ while True:
         elif choice==3:
             view_movies()
             try:
-                delete_movie= int(input(" movie you want removed"))
+                delete_movie= int(input("Movie you want removed: "))
                 remove_movie(delete_movie-1)
             except ValueError:
                 print("Movie unavailable")
